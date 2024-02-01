@@ -1,7 +1,5 @@
 import React from 'react';
-import {Charts} from '../components/charts/Charts';
-import {ConnectButton} from '../components/connectButton/ConnectButton';
-import {ScoreButton} from '../components/scoreButton/ScoreButton';
+import {Charts, ScoreButton, ConnectButton} from '../components';
 
 export const HomeScreen = () => (
   <>

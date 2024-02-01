@@ -1,6 +1,7 @@
-import {HomeScreen} from './screens/HomeScreen';
+import React from 'react';
 import ErrorBoundary from 'react-native-error-boundary';
-import {Fallback} from './components/fallback/Fallback';
+import {HomeScreen} from './src/screens/HomeScreen';
+import {Fallback} from './src/components';
 
 export const App = (): React.JSX.Element => {
   return (

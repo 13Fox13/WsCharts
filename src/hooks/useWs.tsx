@@ -31,8 +31,8 @@ export const useWs = () => {
           }
         });
       }, scoreValue);
-      ws.onerror = e => {
-        Alert.alert('Error', e.message);
+      ws.onerror = (e: any) => {
+        Alert.alert('Error', e?.message);
       };
       ws.onclose = e => {
         console.log(`Code ${e.code}`, e.reason);
